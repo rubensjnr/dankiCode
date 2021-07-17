@@ -12,8 +12,12 @@ teste();
 
 console.log('-----------------------')
 
-function pegarNome(){
+function pegarNome(parametro){
+    if(parametro == 1){
     return "Rubens Junior";
+} else {
+    return "Outro nome";
 }
-var nome = pegarNome();
+}
+var nome = pegarNome(1);
 console.log(nome);
