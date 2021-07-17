@@ -19,5 +19,16 @@ console.log('-------------------------------');
     }
         var emo = teste2()
         console.log(emo)
-        
+
 console.log('-------------------------------');
+
+function pegarN(parametro){
+    if (parametro == 0){
+        return 'Rubens';
+    } else {
+        return 'Não é o Rubens';
+    }
+}
+    var txt = pegarN(1)
+    console.log(txt)
+ 
