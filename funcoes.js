@@ -9,3 +9,11 @@ function teste2(nome,idade){
 teste2('Rubens',24);
 
 teste();
+
+console.log('-----------------------')
+
+function pegarNome(){
+    return "Rubens Junior";
+}
+var nome = pegarNome();
+console.log(nome);
