@@ -8,8 +8,8 @@ console.log(`O estudante ${pessoas.nome} de ${pessoas.idade} anos de idade, tem 
 console.log('====================================')
 var jornal = [
     {
-        'tema':'esportivo',
-        'titulo':'futebol brasileiro',
+        'tema':'Esportivo',
+        'titulo':'Futebol Brasileiro',
         'conteudo':'Palmeiras',
         'autor':'Rubens Junior',
     },
@@ -20,3 +20,5 @@ var jornal = [
         'autor':'Rubens Junior',
     }]
 console.log('Jornal Brasil ' +jornal[0].tema)
+console.log('Jornal Brasil ' +jornal[1].tema)
+console.log('Escritos por ' +jornal[0].autor)
