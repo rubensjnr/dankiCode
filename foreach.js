@@ -1,4 +1,5 @@
 var arr = ['Rubens','Netto','Lucas'];
+var teste = ['Rubao', 'Nucci', 'Pauka']
 
     arr.push = 'Felipe';
 
@@ -10,4 +11,8 @@ console.log('====================');
 
 arr.forEach(function(value,index){
     console.log(value,index);
+})
+console.log('====================');
+teste.forEach(function(value,index){
+    console.log(value+' na posição: '+index)
 })
