@@ -15,5 +15,5 @@ var person = [{
     'periodo': 'Noturno',
 }]
 
-console.log
+console.log(``)
 
